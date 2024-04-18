@@ -8,5 +8,13 @@ public class Animal {
 	public int age() {
 		return age;
 	}
+	public Animal() {
+		// TODO Auto-generated constructor stub
+	}
+	private double weight;
+	public Animal(double weight) {
+		super();
+		this.weight = weight;
+	}
 	
 }
